@@ -10,7 +10,7 @@ package com.duoduo.controller;
 
 import com.duoduo.annotation.Login;
 import com.duoduo.annotation.LoginUser;
-import io.renren.common.utils.R;
+import com.duoduo.common.utils.R;
 import com.duoduo.entity.UserEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

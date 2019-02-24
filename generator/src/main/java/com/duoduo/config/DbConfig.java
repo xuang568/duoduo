@@ -9,7 +9,6 @@
 package com.duoduo.config;
 
 import com.duoduo.dao.*;
-import io.renren.dao.*;
 import com.duoduo.utils.RRException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

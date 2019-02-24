@@ -11,14 +11,14 @@ package com.duoduo.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.duoduo.common.exception.RRException;
+import com.duoduo.common.validator.Assert;
+import com.duoduo.dao.UserDao;
 import com.duoduo.entity.TokenEntity;
 import com.duoduo.entity.UserEntity;
+import com.duoduo.form.LoginForm;
 import com.duoduo.service.TokenService;
 import com.duoduo.service.UserService;
-import io.renren.common.exception.RRException;
-import io.renren.common.validator.Assert;
-import com.duoduo.dao.UserDao;
-import com.duoduo.form.LoginForm;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

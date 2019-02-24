@@ -10,7 +10,7 @@ package com.duoduo.interceptor;
 
 
 import com.duoduo.annotation.Login;
-import io.renren.common.exception.RRException;
+import com.duoduo.common.exception.RRException;
 import com.duoduo.entity.TokenEntity;
 import com.duoduo.service.TokenService;
 import org.apache.commons.lang.StringUtils;

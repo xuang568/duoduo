@@ -8,8 +8,8 @@
 
 package com.duoduo.exception;
 
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.R;
+import com.duoduo.common.exception.RRException;
+import com.duoduo.common.utils.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DuplicateKeyException;

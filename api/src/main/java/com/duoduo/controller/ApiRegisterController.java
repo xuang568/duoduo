@@ -8,8 +8,8 @@
 
 package com.duoduo.controller;
 
-import io.renren.common.utils.R;
-import io.renren.common.validator.ValidatorUtils;
+import com.duoduo.common.utils.R;
+import com.duoduo.common.validator.ValidatorUtils;
 import com.duoduo.entity.UserEntity;
 import com.duoduo.form.RegisterForm;
 import com.duoduo.service.UserService;
