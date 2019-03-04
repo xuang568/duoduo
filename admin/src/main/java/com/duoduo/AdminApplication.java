@@ -14,7 +14,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.duoduo.common"})
 public class AdminApplication {
 
 	public static void main(String[] args) {

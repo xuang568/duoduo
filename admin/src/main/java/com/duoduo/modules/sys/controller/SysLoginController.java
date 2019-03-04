@@ -80,7 +80,7 @@ public class SysLoginController {
 	    
 		return R.ok();
 	}
-	
+
 	/**
 	 * 退出
 	 */
@@ -89,5 +89,5 @@ public class SysLoginController {
 		ShiroUtils.logout();
 		return "redirect:login.html";
 	}
-	
+
 }
